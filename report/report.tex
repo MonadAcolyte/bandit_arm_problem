@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+
+% Basic packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ %total={150mm,257mm},
+ left=25mm,
+ right=25mm,
+ top=15mm,
+ } % Page Layout
+\usepackage[dvipsnames]{xcolor} % Colour
+\usepackage{amsmath} % Maths
+
+%%%%%%%%%%%%%%%%%%%
+% Tables, figures %
+%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx} % Imgages, figures
+\graphicspath{{./figures/}} % Set figure path
+
+\usepackage{booktabs} % Pretty tables
+
+%%%%%%%%%%%%%
+% Citations %
+%%%%%%%%%%%%%
+
+\usepackage[
+    backend=biber,
+    style=apa,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false
+]{biblatex}
+
+%\addbibresource{ASSIGNMENT_1.bib} %Imports bibliography file
+\usepackage{csquotes} % used for block quotes
+
+%%% Helvetica:
+%\usepackage[scaled=0.95]{helvet} % Imports Helvetica, which is similar to Arial
+%\renewcommand{\rmdefault}{phv} % Use Helvetica
+
+%%% Atkinson Hyperlegible, nerdy font 
+%\usepackage[sfdefault]{atkinson} %% Option 'sfdefault' if the base
+%% font of the document is to be sans serif.
+%\usepackage[T1]{fontenc}
+
+\usepackage{titlesec} % pretty headers
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{Black}} % Formatting options
+  {\thesection}{1em}{}
+
+\title{\textcolor{ForestGreen}{\textbf{COMP532 - Machine Learning and Bio-inspired Algorithms: Assignment I \\ Bandit Arm Problem}}}
+%\author{Zhiheng Wang - 201865071 \AND Laura Sierra Pena - 201936067 \AND Ainur Smailova - 201874285 \AND Yan-Yu Lin - 201948160 \AND Saif Ur Rehman \AND Joe Davies - 201950629 \AND Pablo Ramos - 201885602}
+
+\setlength\parindent{0mm}
+
+%%%%%%%%%%%%
+%%% BODY %%%
+%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%
+% Useful templates %
+%%%%%%%%%%%%%%%%%%%%
+
+% ~~~~ Toggle Dark Mode
+% Dark Mode - Comment the bottom 2 lines to get a normal white page
+%\pagecolor{black}
+%\color{white} % Set the default colour to white
+% ~~~~ Toggle page numbering
+%\pagenumbering{gobble} % Turns off page numbering
+% ~~~~ Figure
+%\begin{figure}
+%  \includegraphics[width=\linewidth]{correlation_matrix.png}
+%  \caption{\small Write_your_caption_here}
+%  \label{name_your_figure_for_ref}
+%\end{figure}
+% ~~~~ Equation
+%\begin{center}
+%  $z = \frac{x-\mu}{\sigma}$ \\ \smallbreak \small \textit{Standard_normalization_removes_the_mean_and_scales_to_unit_variance.}
+%\end{center}
+%~~~~ Table (It's easier to use a web tool)
+%\begin{table}[h]
+%\centering
+%\caption{Scores of the implemented models}
+%\label{model_scores_table}
+%\begin{tabular}{@{}llll@{}}
+%\toprule
+%Model               & Balanced Accuracy & Regular Accuracy & Cross Validation Score \\ \midrule
+%Random Forest       & 0.950231          & 0.947761         & 0.955048               \\
+%Logistic Regression & 0.783102          & 0.798507         & 0.762543               \\
+%SVM                 & 0.743056          & 0.768657         & 0.745699               \\ \bottomrule
+%\end{tabular}
+%\end{table}
+% ~~~~ Display blocky quotes
+%\begin{displayquote}
+%    This is some text from a book.
+%\end{displayquote}
+
+\maketitle
+
+Zhiheng Wang - 201865071 \\ Laura Sierra Pena - 201936067 \\ Ainur Smailova - 201874285 \\ Yan-Yu Lin - 201948160 \\ Joe Davies - 201950629 \\ Pablo Ramos - 201885602
+
+{\color{ForestGreen} \rule{\linewidth}{0.5mm}} % Lines with colour options
+
+\section*{\LARGE Introduction}
+
+\section*{\LARGE Methodology}
+
+\section*{\LARGE Results}
+
+\section*{\LARGE Discussion}
+
+\section*{\LARGE Conclusions}
+
+% Implicit citations
+%\nocite{keylist}
+
+%\printbibliography
+
+\end{document}
