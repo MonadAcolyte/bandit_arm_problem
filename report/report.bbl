@@ -1,0 +1,811 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{antonacopoulos_pattern_2025}{book}{}{}
+      \name{editor}{6}{}{%
+        {{un=0,uniquepart=base,hash=ceb539ff35ea2d3cfac7dbac6dba4fe1}{%
+           family={Antonacopoulos},
+           familyi={A\bibinitperiod},
+           given={Apostolos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54bfbb915fff866072f0d259630a20d3}{%
+           family={Chaudhuri},
+           familyi={C\bibinitperiod},
+           given={Subhasis},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e34e482e0dd6e755329ae57da3b293}{%
+           family={Chellappa},
+           familyi={C\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e281c3b38181c6232893b3bf21de6b7d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Cheng-Lin},
+           giveni={C\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e40b5bc082cd15438169af70b8a6db4}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={Saumik},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f5b5740a32e8c3bb179e51576ac756}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Umapada},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{54195384a6efe0dbeddf75d46401493b}
+      \strng{fullhash}{771259d830d96ee0791514413d9a39ce}
+      \strng{fullhashraw}{771259d830d96ee0791514413d9a39ce}
+      \strng{bibnamehash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editorbibnamehash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editornamehash}{54195384a6efe0dbeddf75d46401493b}
+      \strng{editorfullhash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editorfullhashraw}{771259d830d96ee0791514413d9a39ce}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-031-78188-9 978-3-031-78189-6}
+      \field{langid}{english}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{shorttitle}{Pattern Recognition}
+      \field{title}{Pattern Recognition: 27th International Conference, {ICPR} 2024, Kolkata, India, December 1–5, 2024, Proceedings, Part {IX}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{15309}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-031-78189-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/RIG4MJFZ/Antonacopoulos et al. - 2025 - Pattern Recognition 27th International Conference, ICPR 2024, Kolkata, India, December 1–5, 2024, P.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-031-78189-6
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-031-78189-6
+      \endverb
+      \keyw{Artificial Intelligence,Bioinformatics,Biomedical Imaging,Biometrics,Computer Vision,Document Analysis,Document Recognition,Human-Computer Interaction ({HCI}),Image Processing,Machine Learning,Machine Vision,Pattern Recognition,Robot Vision,Signal Processing,Speech Processing,Video Processing}
+    \endentry
+    \entry{berger-tal_exploration-exploitation_2014}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=66a2ff205a3abd52fd3885a1a4588e63}{%
+           family={Berger-Tal},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce4d0a21d427d87503a405a755c4782e}{%
+           family={Nathan},
+           familyi={N\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e922db0221a33c12aa43a3d2e320214}{%
+           family={Meron},
+           familyi={M\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c61efdce1c39299e76c68bc108efdda}{%
+           family={Saltz},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f77dad096b603b9dd53edcafc695eb8b}
+      \strng{fullhash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{fullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{bibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authorbibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authornamehash}{f77dad096b603b9dd53edcafc695eb8b}
+      \strng{authorfullhash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authorfullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The trade-off between the need to obtain new knowledge and the need to use that knowledge to improve performance is one of the most basic trade-offs in nature, and optimal performance usually requires some balance between exploratory and exploitative behaviors. Researchers in many disciplines have been searching for the optimal solution to this dilemma. Here we present a novel model in which the exploration strategy itself is dynamic and varies with time in order to optimize a definite goal, such as the acquisition of energy, money, or prestige. Our model produced four very distinct phases: Knowledge establishment, Knowledge accumulation, Knowledge maintenance, and Knowledge exploitation, giving rise to a multidisciplinary framework that applies equally to humans, animals, and organizations. The framework can be used to explain a multitude of phenomena in various disciplines, such as the movement of animals in novel landscapes, the most efficient resource allocation for a start-up company, or the effects of old age on knowledge acquisition in humans.}
+      \field{day}{22}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{{PLOS} {ONE}}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{4}
+      \field{shortjournal}{{PLOS} {ONE}}
+      \field{shorttitle}{The Exploration-Exploitation Dilemma}
+      \field{title}{The Exploration-Exploitation Dilemma: A Multidisciplinary Framework}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e95693}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0095693
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/Z2FBTL75/Berger-Tal et al. - 2014 - The Exploration-Exploitation Dilemma A Multidisciplinary Framework.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095693
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095693
+      \endverb
+      \keyw{Animal behavior,Behavior,Decision making,Foraging,Human learning,Learning,Machine learning,Machine learning algorithms}
+    \endentry
+    \entry{bubeck_regret_2012}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3d51ee91b7d20d2f26b221a8a3b8b72c}{%
+           family={Bubeck},
+           familyi={B\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4de530030244169e16641806ebdfde2b}{%
+           family={Cesa-Bianchi},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Nicolò},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{fullhash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{fullhashraw}{a3f301cdc975812a6777e95196b5981a}
+      \strng{bibnamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorbibnamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authornamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorfullhash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorfullhashraw}{a3f301cdc975812a6777e95196b5981a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multi-armed bandit problems are the most basic examples of sequential decision problems with an exploration-exploitation trade-off. This is the balance between staying with the option that gave highest payoffs in the past and exploring new options that might give higher payoffs in the future. Although the study of bandit problems dates back to the Thirties, exploration-exploitation trade-offs arise in several modern applications, such as ad placement, website optimization, and packet routing. Mathematically, a multi-armed bandit is defined by the payoff process associated with each option. In this survey, we focus on two extreme cases in which the analysis of regret is particularly simple and elegant: i.i.d. payoffs and adversarial payoffs. Besides the basic setting of finitely many actions, we also analyze some of the most important variants and extensions, such as the contextual bandit model.}
+      \field{day}{3}
+      \field{eprinttype}{arxiv}
+      \field{month}{11}
+      \field{number}{{arXiv}:1204.5721}
+      \field{title}{Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1204.5721
+      \endverb
+      \verb{eprint}
+      \verb 1204.5721 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/Users/lauravalentinasierrapena/Zotero/storage/CQKNDKRR/Bubeck and Cesa-Bianchi - 2012 - Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems.pdf:application/pdf;Snapshot:/Users/lauravalentinasierrapena/Zotero/storage/HLFZZUIV/1204.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1204.5721
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1204.5721
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{nandhini_fractal_2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8df56ee78771dc2888e11c101bb47c69}{%
+           family={Nandhini},
+           familyi={N\bibinitperiod},
+           given={S.\bibnamedelimi Kala},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7bc301abb90549f400db3c8ecf8cab0}{%
+           family={Pandian},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi Arun},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{fullhash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{fullhashraw}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{bibnamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorbibnamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authornamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorfullhash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorfullhashraw}{2665a3568b2a12fe095239d7abbaa895}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this research, we propose a novel approach to addressing the exploration–exploitation dilemma in multi-armed bandit ({MAB}) algorithms using fractal dimensions. The fractal dimension is used in the algorithms to represent the reward distributions of arms which represents the uncertainty of the arm in receiving the reward. The fractal dimension of the reward distribution is implemented in the most popular {MAB} optimization algorithms, such as Epsilon-Greedy, Upper Confidence Bound ({UCB}), Exponential-weight algorithm for Exploration and Exploitation ({EXP}3), and Thompson Sampling in this study. The algorithm prefers to choose arm with the least fractal dimension, as a lower fractal dimension represents less uncertainty of the arm. The performance of the fractal-enhanced {MAB} optimization algorithms is compared with traditional algorithms in non-stationary environments with various numbers of arms. The proposed approach provides a novel way to quantify and utilize the uncertainty of each arm in {MAB} problems.}
+      \field{day}{5}
+      \field{issn}{1951-6401}
+      \field{journaltitle}{The European Physical Journal Special Topics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Eur. Phys. J. Spec. Top.}
+      \field{shorttitle}{Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems}
+      \field{title}{Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems: a machine learning approach}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1140/epjs/s11734-025-01581-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/7MHHVZPS/Nandhini and Pandian - 2025 - Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
+      \endverb
+    \endentry
+    \entry{sutton_reinforcement_nodate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32a0a208f8bcf56a13b0a8e618aa806a}{%
+           family={Barto},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Reinforcement Learning: An Introduction}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/Users/lauravalentinasierrapena/Zotero/storage/58EH5M63/Sutton and Barto - Reinforcement Learning An Introduction.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wang_exploration_2019}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ecbdeaec835537d95d1ebf3f676fb38}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haoran},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f7e26577ec2d73446d68908ece88a7b}{%
+           family={Zariphopoulou},
+           familyi={Z\bibinitperiod},
+           given={Thaleia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b5cd8ded9b4f1e0ea2563f240bf812f}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xunyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4d21a3489366f503f9b29de271bcf0ee}
+      \strng{fullhash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{fullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{bibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authorbibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authornamehash}{4d21a3489366f503f9b29de271bcf0ee}
+      \strng{authorfullhash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authorfullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We consider reinforcement learning ({RL}) in continuous time and study the problem of achieving the best trade-off between exploration of a black box environment and exploitation of current knowledge. We propose an entropy-regularized reward function involving the differential entropy of the distributions of actions, and motivate and devise an exploratory formulation for the feature dynamics that captures repetitive learning under exploration. The resulting optimization problem is a revitalization of the classical relaxed stochastic control. We carry out a complete analysis of the problem in the linear--quadratic ({LQ}) setting and deduce that the optimal feedback control distribution for balancing exploitation and exploration is Gaussian. This in turn interprets and justifies the widely adopted Gaussian exploration in {RL}, beyond its simplicity for sampling. Moreover, the exploitation and exploration are captured, respectively and mutual-exclusively, by the mean and variance of the Gaussian distribution. We also find that a more random environment contains more learning opportunities in the sense that less exploration is needed. We characterize the cost of exploration, which, for the {LQ} case, is shown to be proportional to the entropy regularization weight and inversely proportional to the discount rate. Finally, as the weight of exploration decays to zero, we prove the convergence of the solution of the entropy-regularized {LQ} problem to the one of the classical {LQ} problem.}
+      \field{day}{13}
+      \field{eprinttype}{arxiv}
+      \field{month}{2}
+      \field{number}{{arXiv}:1812.01552}
+      \field{shorttitle}{Exploration versus exploitation in reinforcement learning}
+      \field{title}{Exploration versus exploitation in reinforcement learning: a stochastic control approach}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1812.01552
+      \endverb
+      \verb{eprint}
+      \verb 1812.01552 [math]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/Users/lauravalentinasierrapena/Zotero/storage/GEDAHQKL/Wang et al. - 2019 - Exploration versus exploitation in reinforcement learning a stochastic control approach.pdf:application/pdf;Snapshot:/Users/lauravalentinasierrapena/Zotero/storage/M2748CZY/1812.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1812.01552
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1812.01552
+      \endverb
+      \keyw{Computer Science - Machine Learning,Mathematics - Optimization and Control}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{antonacopoulos_pattern_2025}{book}{}{}
+      \name{editor}{6}{}{%
+        {{un=0,uniquepart=base,hash=ceb539ff35ea2d3cfac7dbac6dba4fe1}{%
+           family={Antonacopoulos},
+           familyi={A\bibinitperiod},
+           given={Apostolos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54bfbb915fff866072f0d259630a20d3}{%
+           family={Chaudhuri},
+           familyi={C\bibinitperiod},
+           given={Subhasis},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58e34e482e0dd6e755329ae57da3b293}{%
+           family={Chellappa},
+           familyi={C\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e281c3b38181c6232893b3bf21de6b7d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Cheng-Lin},
+           giveni={C\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e40b5bc082cd15438169af70b8a6db4}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={Saumik},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f5b5740a32e8c3bb179e51576ac756}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Umapada},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{54195384a6efe0dbeddf75d46401493b}
+      \strng{fullhash}{771259d830d96ee0791514413d9a39ce}
+      \strng{fullhashraw}{771259d830d96ee0791514413d9a39ce}
+      \strng{bibnamehash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editorbibnamehash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editornamehash}{54195384a6efe0dbeddf75d46401493b}
+      \strng{editorfullhash}{771259d830d96ee0791514413d9a39ce}
+      \strng{editorfullhashraw}{771259d830d96ee0791514413d9a39ce}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-031-78188-9 978-3-031-78189-6}
+      \field{langid}{english}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{shorttitle}{Pattern Recognition}
+      \field{title}{Pattern Recognition: 27th International Conference, {ICPR} 2024, Kolkata, India, December 1–5, 2024, Proceedings, Part {IX}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{15309}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-031-78189-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/RIG4MJFZ/Antonacopoulos et al. - 2025 - Pattern Recognition 27th International Conference, ICPR 2024, Kolkata, India, December 1–5, 2024, P.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-031-78189-6
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-031-78189-6
+      \endverb
+      \keyw{Artificial Intelligence,Bioinformatics,Biomedical Imaging,Biometrics,Computer Vision,Document Analysis,Document Recognition,Human-Computer Interaction ({HCI}),Image Processing,Machine Learning,Machine Vision,Pattern Recognition,Robot Vision,Signal Processing,Speech Processing,Video Processing}
+    \endentry
+    \entry{berger-tal_exploration-exploitation_2014}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=66a2ff205a3abd52fd3885a1a4588e63}{%
+           family={Berger-Tal},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce4d0a21d427d87503a405a755c4782e}{%
+           family={Nathan},
+           familyi={N\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e922db0221a33c12aa43a3d2e320214}{%
+           family={Meron},
+           familyi={M\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c61efdce1c39299e76c68bc108efdda}{%
+           family={Saltz},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f77dad096b603b9dd53edcafc695eb8b}
+      \strng{fullhash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{fullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{bibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authorbibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authornamehash}{f77dad096b603b9dd53edcafc695eb8b}
+      \strng{authorfullhash}{2b3777ca14f9614ab2870138a3bf38b9}
+      \strng{authorfullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The trade-off between the need to obtain new knowledge and the need to use that knowledge to improve performance is one of the most basic trade-offs in nature, and optimal performance usually requires some balance between exploratory and exploitative behaviors. Researchers in many disciplines have been searching for the optimal solution to this dilemma. Here we present a novel model in which the exploration strategy itself is dynamic and varies with time in order to optimize a definite goal, such as the acquisition of energy, money, or prestige. Our model produced four very distinct phases: Knowledge establishment, Knowledge accumulation, Knowledge maintenance, and Knowledge exploitation, giving rise to a multidisciplinary framework that applies equally to humans, animals, and organizations. The framework can be used to explain a multitude of phenomena in various disciplines, such as the movement of animals in novel landscapes, the most efficient resource allocation for a start-up company, or the effects of old age on knowledge acquisition in humans.}
+      \field{day}{22}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{{PLOS} {ONE}}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{4}
+      \field{shortjournal}{{PLOS} {ONE}}
+      \field{shorttitle}{The Exploration-Exploitation Dilemma}
+      \field{title}{The Exploration-Exploitation Dilemma: A Multidisciplinary Framework}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e95693}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0095693
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/Z2FBTL75/Berger-Tal et al. - 2014 - The Exploration-Exploitation Dilemma A Multidisciplinary Framework.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095693
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095693
+      \endverb
+      \keyw{Animal behavior,Behavior,Decision making,Foraging,Human learning,Learning,Machine learning,Machine learning algorithms}
+    \endentry
+    \entry{bubeck_regret_2012}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3d51ee91b7d20d2f26b221a8a3b8b72c}{%
+           family={Bubeck},
+           familyi={B\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4de530030244169e16641806ebdfde2b}{%
+           family={Cesa-Bianchi},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Nicolò},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{fullhash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{fullhashraw}{a3f301cdc975812a6777e95196b5981a}
+      \strng{bibnamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorbibnamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authornamehash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorfullhash}{a3f301cdc975812a6777e95196b5981a}
+      \strng{authorfullhashraw}{a3f301cdc975812a6777e95196b5981a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multi-armed bandit problems are the most basic examples of sequential decision problems with an exploration-exploitation trade-off. This is the balance between staying with the option that gave highest payoffs in the past and exploring new options that might give higher payoffs in the future. Although the study of bandit problems dates back to the Thirties, exploration-exploitation trade-offs arise in several modern applications, such as ad placement, website optimization, and packet routing. Mathematically, a multi-armed bandit is defined by the payoff process associated with each option. In this survey, we focus on two extreme cases in which the analysis of regret is particularly simple and elegant: i.i.d. payoffs and adversarial payoffs. Besides the basic setting of finitely many actions, we also analyze some of the most important variants and extensions, such as the contextual bandit model.}
+      \field{day}{3}
+      \field{eprinttype}{arxiv}
+      \field{month}{11}
+      \field{number}{{arXiv}:1204.5721}
+      \field{title}{Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1204.5721
+      \endverb
+      \verb{eprint}
+      \verb 1204.5721 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/Users/lauravalentinasierrapena/Zotero/storage/CQKNDKRR/Bubeck and Cesa-Bianchi - 2012 - Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems.pdf:application/pdf;Snapshot:/Users/lauravalentinasierrapena/Zotero/storage/HLFZZUIV/1204.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1204.5721
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1204.5721
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{nandhini_fractal_2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8df56ee78771dc2888e11c101bb47c69}{%
+           family={Nandhini},
+           familyi={N\bibinitperiod},
+           given={S.\bibnamedelimi Kala},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7bc301abb90549f400db3c8ecf8cab0}{%
+           family={Pandian},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi Arun},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{fullhash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{fullhashraw}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{bibnamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorbibnamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authornamehash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorfullhash}{2665a3568b2a12fe095239d7abbaa895}
+      \strng{authorfullhashraw}{2665a3568b2a12fe095239d7abbaa895}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this research, we propose a novel approach to addressing the exploration–exploitation dilemma in multi-armed bandit ({MAB}) algorithms using fractal dimensions. The fractal dimension is used in the algorithms to represent the reward distributions of arms which represents the uncertainty of the arm in receiving the reward. The fractal dimension of the reward distribution is implemented in the most popular {MAB} optimization algorithms, such as Epsilon-Greedy, Upper Confidence Bound ({UCB}), Exponential-weight algorithm for Exploration and Exploitation ({EXP}3), and Thompson Sampling in this study. The algorithm prefers to choose arm with the least fractal dimension, as a lower fractal dimension represents less uncertainty of the arm. The performance of the fractal-enhanced {MAB} optimization algorithms is compared with traditional algorithms in non-stationary environments with various numbers of arms. The proposed approach provides a novel way to quantify and utilize the uncertainty of each arm in {MAB} problems.}
+      \field{day}{5}
+      \field{issn}{1951-6401}
+      \field{journaltitle}{The European Physical Journal Special Topics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Eur. Phys. J. Spec. Top.}
+      \field{shorttitle}{Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems}
+      \field{title}{Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems: a machine learning approach}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1140/epjs/s11734-025-01581-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/lauravalentinasierrapena/Zotero/storage/7MHHVZPS/Nandhini and Pandian - 2025 - Fractal dimension analysis for improved decision-making in non-stationary multi-arm bandit problems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
+      \endverb
+    \endentry
+    \entry{sutton_reinforcement_nodate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32a0a208f8bcf56a13b0a8e618aa806a}{%
+           family={Barto},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Reinforcement Learning: An Introduction}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/Users/lauravalentinasierrapena/Zotero/storage/58EH5M63/Sutton and Barto - Reinforcement Learning An Introduction.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wang_exploration_2019}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ecbdeaec835537d95d1ebf3f676fb38}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haoran},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f7e26577ec2d73446d68908ece88a7b}{%
+           family={Zariphopoulou},
+           familyi={Z\bibinitperiod},
+           given={Thaleia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b5cd8ded9b4f1e0ea2563f240bf812f}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xunyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4d21a3489366f503f9b29de271bcf0ee}
+      \strng{fullhash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{fullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{bibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authorbibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authornamehash}{4d21a3489366f503f9b29de271bcf0ee}
+      \strng{authorfullhash}{216e74d50c3dd1b0fdb4001772205a8f}
+      \strng{authorfullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We consider reinforcement learning ({RL}) in continuous time and study the problem of achieving the best trade-off between exploration of a black box environment and exploitation of current knowledge. We propose an entropy-regularized reward function involving the differential entropy of the distributions of actions, and motivate and devise an exploratory formulation for the feature dynamics that captures repetitive learning under exploration. The resulting optimization problem is a revitalization of the classical relaxed stochastic control. We carry out a complete analysis of the problem in the linear--quadratic ({LQ}) setting and deduce that the optimal feedback control distribution for balancing exploitation and exploration is Gaussian. This in turn interprets and justifies the widely adopted Gaussian exploration in {RL}, beyond its simplicity for sampling. Moreover, the exploitation and exploration are captured, respectively and mutual-exclusively, by the mean and variance of the Gaussian distribution. We also find that a more random environment contains more learning opportunities in the sense that less exploration is needed. We characterize the cost of exploration, which, for the {LQ} case, is shown to be proportional to the entropy regularization weight and inversely proportional to the discount rate. Finally, as the weight of exploration decays to zero, we prove the convergence of the solution of the entropy-regularized {LQ} problem to the one of the classical {LQ} problem.}
+      \field{day}{13}
+      \field{eprinttype}{arxiv}
+      \field{month}{2}
+      \field{number}{{arXiv}:1812.01552}
+      \field{shorttitle}{Exploration versus exploitation in reinforcement learning}
+      \field{title}{Exploration versus exploitation in reinforcement learning: a stochastic control approach}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1812.01552
+      \endverb
+      \verb{eprint}
+      \verb 1812.01552 [math]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/Users/lauravalentinasierrapena/Zotero/storage/GEDAHQKL/Wang et al. - 2019 - Exploration versus exploitation in reinforcement learning a stochastic control approach.pdf:application/pdf;Snapshot:/Users/lauravalentinasierrapena/Zotero/storage/M2748CZY/1812.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1812.01552
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1812.01552
+      \endverb
+      \keyw{Computer Science - Machine Learning,Mathematics - Optimization and Control}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
