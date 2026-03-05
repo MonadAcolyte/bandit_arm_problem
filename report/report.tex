@@ -260,15 +260,20 @@ Overall, these graphs support the conclusion that in static environments we want
   \item For the incremental estimator, not only did it start off with relatively high optimal selection, but also it performed the most optimally over time. This is because it accumulates data results, and it has more accumulative data to work with. 
   \item These results indicate that dynamic estimators are superior to the average estimator, and the incremental estimator is the most optimal (within our timespan). Given more time, there is a potential for the moving average to overtake the incremental estimator, but this cannot be accurately shown from the data.
 \end{itemize}
+
 \section*{\LARGE Discussion}
 \subsection*{Problem 2}
 
 The trade-off between exploration and exploitation is a central challenge in reinforcement learning. To obtain high reward, an agent should prefer actions that have produced good results in the past (exploitation), but to discover such actions it must also try actions that have not been tried often or at all (exploration). (Berger-Tal, Nathan, Meron, \& Saltz, 2014). In other words, the agent must exploit what it already knows to gain immediate reward, while also exploring to improve its knowledge and make better action selections in the future. (Sutton \& Barto, 2014)
+
 In multi-armed bandits, the exploration-exploitation dilemma arises because, at each step, the agent must decide whether to play the arm that has produced the highest average reward so far (exploitation) or to try a different arm to improve its estimate of that arm's true value (exploration). Formally, each arm has an unknown reward distribution, and the agent only learns about these rewards through repeated interaction, which makes this trade-off unavoidable.
-The goal of a multi-armed bandit agent is to find an appropriate balance between exploration and exploitation that minimises the regret over a given time horizon. Regret is defined as the difference between the cumulative reward that would have been obtained by always selecting the optimal arm and the cumulative reward obtained by the agent's strategy. A good bandit algorithm aims for regret that grows sublinearly with time, so that the average regret per step converges to zero. (Bubeck \& Cesa-Bianchi, 2012) 
+
+The goal of a multi-armed bandit agent is to find an appropriate balance between exploration and exploitation that minimises the regret over a given time horizon. Regret is defined as the difference between the cumulative reward that would have been obtained by always selecting the optimal arm and the cumulative reward obtained by the agent's strategy. A good bandit algorithm aims for regret that grows sublinearly with time, so that the average regret per step converges to zero. (Bubeck \& Cesa-Bianchi, 2012)
+
 One simple strategy to address this trade-off is the epsilon-greedy method. In epsilon-greedy, at each step the agent chooses a random arm with probability $\varepsilon $ (exploration) and chooses the arm with the highest current estimated value with probability  $1-\varepsilon $ (exploitation). The parameter $\varepsilon $ therefore controls the balance between exploration and exploitation: larger values of $\varepsilon $ encourage more exploration, while smaller values favour exploiting the best-known arm. (Sutton \& Barto, 2014)
 
 \subsection*{Problem 3}
+
 The true value of an action is the average reward that was received after that action was taken. The difference between methods lies in how they use that uncertainty to balance exploration and exploitation. In our project we looked at some basic ways to estimate that value and used it to decide what to do next. In terms of static and dynamic environments, we mean the stationary and non-stationary environments.
 
 Key Action-Value methods used:
