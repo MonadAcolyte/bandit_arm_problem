@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1772713293.41458 -1
+["biber report"] 0 "report.bcf" "report.bbl" "report" 1772713692.86484 -1
   "Bandit.bib" 1772660588.94549 9758 8a8eabf0390ede65137bb5cfe612f005 ""
-  "report.bcf" 1772713293.32267 133419 0361cabea7888c26e54839547904fada "pdflatex"
+  "report.bcf" 1772713692.77541 133419 0361cabea7888c26e54839547904fada "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1772713292.36755 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772713293.41494 0
+["pdflatex"] 1772713691.84905 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772713692.86521 0
   "/etc/texmf/web2c/texmf.cnf" 1765019585.00569 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772713291.09326 22096 b8ebb295903092a628db2019134e61fb ""
+  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772713691.65843 22031 2b745f4d00be204195df3527a0237159 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -127,10 +127,10 @@
   "figures/static_cumulative_reward.jpeg" 1772660588.95549 110938 db08c5c4d995fcb73df164d947b7a796 ""
   "figures/static_percentage.jpeg" 1772660588.95709 98101 ab0e8e6f35da67339cfca300601ac26b ""
   "figures/strategy.jpeg" 1772660588.95746 40673 8cc002e9c777504b809e9c088a59a3f0 ""
-  "report.aux" 1772713293.31967 3825 28d874d9c8b2ab1282e066f83523088f "pdflatex"
+  "report.aux" 1772713692.77241 3825 28d874d9c8b2ab1282e066f83523088f "pdflatex"
   "report.bbl" 1772660593.41711 41226 6f8ae8c08a0a8760482e24c45d30a1de "biber report"
-  "report.run.xml" 1772713293.32492 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
-  "report.tex" 1772713291.09326 22096 b8ebb295903092a628db2019134e61fb ""
+  "report.run.xml" 1772713692.77677 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
+  "report.tex" 1772713691.65843 22031 2b745f4d00be204195df3527a0237159 ""
   (generated)
   "report.aux"
   "report.bcf"

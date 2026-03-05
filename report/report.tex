@@ -194,7 +194,7 @@ A base abstract Strategy class, which selects which action to perform based on t
   \label{class_strategy}
 \end{figure}
 
-In our environment, we have a list of five arms, and ten agents. In each step, each agent selects an arm using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
+In each step, each agent selects an arm using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
 
 To ensure reproducibility in between runs, we used NumPy's random seed module and selected different values for the seeds.
 
