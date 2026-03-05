@@ -1,10 +1,15 @@
-% Intermediary files should not be verisioned
+
+#########
+# LaTex #
+#########
 
     *.aux
-%    *.pdf % Tracked for now
+#    *.pdf # Tracked for now
     *.ps
     *.log
     *.dvi
     *.tex~
-    *.bbl % BibTex specific
-    *.blg % BibTex specific
+
+# BibTex specific
+    *.bbl
+    *.blg
