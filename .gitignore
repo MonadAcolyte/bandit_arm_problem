@@ -1,7 +1,7 @@
 % Intermediary files should not be verisioned
 
     *.aux
-    *.pdf
+%    *.pdf % Tracked for now
     *.ps
     *.log
     *.dvi

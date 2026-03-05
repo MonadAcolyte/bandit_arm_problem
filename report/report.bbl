@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{antonacopoulos_pattern_2025}{book}{}{}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{antonacopoulos_pattern_2025}{book}{}
       \name{editor}{6}{}{%
         {{un=0,uniquepart=base,hash=ceb539ff35ea2d3cfac7dbac6dba4fe1}{%
            family={Antonacopoulos},
@@ -66,12 +66,10 @@
       }
       \strng{namehash}{54195384a6efe0dbeddf75d46401493b}
       \strng{fullhash}{771259d830d96ee0791514413d9a39ce}
-      \strng{fullhashraw}{771259d830d96ee0791514413d9a39ce}
       \strng{bibnamehash}{771259d830d96ee0791514413d9a39ce}
       \strng{editorbibnamehash}{771259d830d96ee0791514413d9a39ce}
       \strng{editornamehash}{54195384a6efe0dbeddf75d46401493b}
       \strng{editorfullhash}{771259d830d96ee0791514413d9a39ce}
-      \strng{editorfullhashraw}{771259d830d96ee0791514413d9a39ce}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -106,7 +104,7 @@
       \endverb
       \keyw{Artificial Intelligence,Bioinformatics,Biomedical Imaging,Biometrics,Computer Vision,Document Analysis,Document Recognition,Human-Computer Interaction ({HCI}),Image Processing,Machine Learning,Machine Vision,Pattern Recognition,Robot Vision,Signal Processing,Speech Processing,Video Processing}
     \endentry
-    \entry{berger-tal_exploration-exploitation_2014}{article}{}{}
+    \entry{berger-tal_exploration-exploitation_2014}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=66a2ff205a3abd52fd3885a1a4588e63}{%
            family={Berger-Tal},
@@ -135,12 +133,10 @@
       }
       \strng{namehash}{f77dad096b603b9dd53edcafc695eb8b}
       \strng{fullhash}{2b3777ca14f9614ab2870138a3bf38b9}
-      \strng{fullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{bibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{authorbibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{authornamehash}{f77dad096b603b9dd53edcafc695eb8b}
       \strng{authorfullhash}{2b3777ca14f9614ab2870138a3bf38b9}
-      \strng{authorfullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -183,7 +179,7 @@
       \endverb
       \keyw{Animal behavior,Behavior,Decision making,Foraging,Human learning,Learning,Machine learning,Machine learning algorithms}
     \endentry
-    \entry{bubeck_regret_2012}{misc}{}{}
+    \entry{bubeck_regret_2012}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3d51ee91b7d20d2f26b221a8a3b8b72c}{%
            family={Bubeck},
@@ -203,12 +199,10 @@
       }
       \strng{namehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{fullhash}{a3f301cdc975812a6777e95196b5981a}
-      \strng{fullhashraw}{a3f301cdc975812a6777e95196b5981a}
       \strng{bibnamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authorbibnamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authornamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authorfullhash}{a3f301cdc975812a6777e95196b5981a}
-      \strng{authorfullhashraw}{a3f301cdc975812a6777e95196b5981a}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -246,7 +240,7 @@
       \endverb
       \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
-    \entry{nandhini_fractal_2025}{article}{}{}
+    \entry{nandhini_fractal_2025}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8df56ee78771dc2888e11c101bb47c69}{%
            family={Nandhini},
@@ -263,12 +257,10 @@
       }
       \strng{namehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{fullhash}{2665a3568b2a12fe095239d7abbaa895}
-      \strng{fullhashraw}{2665a3568b2a12fe095239d7abbaa895}
       \strng{bibnamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authorbibnamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authornamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authorfullhash}{2665a3568b2a12fe095239d7abbaa895}
-      \strng{authorfullhashraw}{2665a3568b2a12fe095239d7abbaa895}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -305,7 +297,7 @@
       \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
       \endverb
     \endentry
-    \entry{sutton_reinforcement_nodate}{article}{}{}
+    \entry{sutton_reinforcement_nodate}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
            family={Sutton},
@@ -322,12 +314,10 @@
       }
       \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
-      \strng{fullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
-      \strng{authorfullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeldatesource}{nodate}
@@ -341,7 +331,7 @@
       \verb PDF:/Users/lauravalentinasierrapena/Zotero/storage/58EH5M63/Sutton and Barto - Reinforcement Learning An Introduction.pdf:application/pdf
       \endverb
     \endentry
-    \entry{wang_exploration_2019}{misc}{}{}
+    \entry{wang_exploration_2019}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4ecbdeaec835537d95d1ebf3f676fb38}{%
            family={Wang},
@@ -367,12 +357,10 @@
       }
       \strng{namehash}{4d21a3489366f503f9b29de271bcf0ee}
       \strng{fullhash}{216e74d50c3dd1b0fdb4001772205a8f}
-      \strng{fullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{bibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{authorbibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{authornamehash}{4d21a3489366f503f9b29de271bcf0ee}
       \strng{authorfullhash}{216e74d50c3dd1b0fdb4001772205a8f}
-      \strng{authorfullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -412,8 +400,8 @@
       \keyw{Computer Science - Machine Learning,Mathematics - Optimization and Control}
     \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{antonacopoulos_pattern_2025}{book}{}{}
+  \datalist[entry]{apa/global//global/global}
+    \entry{antonacopoulos_pattern_2025}{book}{}
       \name{editor}{6}{}{%
         {{un=0,uniquepart=base,hash=ceb539ff35ea2d3cfac7dbac6dba4fe1}{%
            family={Antonacopoulos},
@@ -460,12 +448,10 @@
       }
       \strng{namehash}{54195384a6efe0dbeddf75d46401493b}
       \strng{fullhash}{771259d830d96ee0791514413d9a39ce}
-      \strng{fullhashraw}{771259d830d96ee0791514413d9a39ce}
       \strng{bibnamehash}{771259d830d96ee0791514413d9a39ce}
       \strng{editorbibnamehash}{771259d830d96ee0791514413d9a39ce}
       \strng{editornamehash}{54195384a6efe0dbeddf75d46401493b}
       \strng{editorfullhash}{771259d830d96ee0791514413d9a39ce}
-      \strng{editorfullhashraw}{771259d830d96ee0791514413d9a39ce}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -500,7 +486,7 @@
       \endverb
       \keyw{Artificial Intelligence,Bioinformatics,Biomedical Imaging,Biometrics,Computer Vision,Document Analysis,Document Recognition,Human-Computer Interaction ({HCI}),Image Processing,Machine Learning,Machine Vision,Pattern Recognition,Robot Vision,Signal Processing,Speech Processing,Video Processing}
     \endentry
-    \entry{berger-tal_exploration-exploitation_2014}{article}{}{}
+    \entry{berger-tal_exploration-exploitation_2014}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=66a2ff205a3abd52fd3885a1a4588e63}{%
            family={Berger-Tal},
@@ -529,12 +515,10 @@
       }
       \strng{namehash}{f77dad096b603b9dd53edcafc695eb8b}
       \strng{fullhash}{2b3777ca14f9614ab2870138a3bf38b9}
-      \strng{fullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{bibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{authorbibnamehash}{2b3777ca14f9614ab2870138a3bf38b9}
       \strng{authornamehash}{f77dad096b603b9dd53edcafc695eb8b}
       \strng{authorfullhash}{2b3777ca14f9614ab2870138a3bf38b9}
-      \strng{authorfullhashraw}{2b3777ca14f9614ab2870138a3bf38b9}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -577,7 +561,7 @@
       \endverb
       \keyw{Animal behavior,Behavior,Decision making,Foraging,Human learning,Learning,Machine learning,Machine learning algorithms}
     \endentry
-    \entry{bubeck_regret_2012}{misc}{}{}
+    \entry{bubeck_regret_2012}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3d51ee91b7d20d2f26b221a8a3b8b72c}{%
            family={Bubeck},
@@ -597,12 +581,10 @@
       }
       \strng{namehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{fullhash}{a3f301cdc975812a6777e95196b5981a}
-      \strng{fullhashraw}{a3f301cdc975812a6777e95196b5981a}
       \strng{bibnamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authorbibnamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authornamehash}{a3f301cdc975812a6777e95196b5981a}
       \strng{authorfullhash}{a3f301cdc975812a6777e95196b5981a}
-      \strng{authorfullhashraw}{a3f301cdc975812a6777e95196b5981a}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -640,7 +622,7 @@
       \endverb
       \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
-    \entry{nandhini_fractal_2025}{article}{}{}
+    \entry{nandhini_fractal_2025}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8df56ee78771dc2888e11c101bb47c69}{%
            family={Nandhini},
@@ -657,12 +639,10 @@
       }
       \strng{namehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{fullhash}{2665a3568b2a12fe095239d7abbaa895}
-      \strng{fullhashraw}{2665a3568b2a12fe095239d7abbaa895}
       \strng{bibnamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authorbibnamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authornamehash}{2665a3568b2a12fe095239d7abbaa895}
       \strng{authorfullhash}{2665a3568b2a12fe095239d7abbaa895}
-      \strng{authorfullhashraw}{2665a3568b2a12fe095239d7abbaa895}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -699,7 +679,7 @@
       \verb https://doi.org/10.1140/epjs/s11734-025-01581-4
       \endverb
     \endentry
-    \entry{sutton_reinforcement_nodate}{article}{}{}
+    \entry{sutton_reinforcement_nodate}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
            family={Sutton},
@@ -716,12 +696,10 @@
       }
       \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
-      \strng{fullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
       \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
-      \strng{authorfullhashraw}{c6212f1a1407d96a3d9f4fefbb07eade}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeldatesource}{nodate}
@@ -735,7 +713,7 @@
       \verb PDF:/Users/lauravalentinasierrapena/Zotero/storage/58EH5M63/Sutton and Barto - Reinforcement Learning An Introduction.pdf:application/pdf
       \endverb
     \endentry
-    \entry{wang_exploration_2019}{misc}{}{}
+    \entry{wang_exploration_2019}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4ecbdeaec835537d95d1ebf3f676fb38}{%
            family={Wang},
@@ -761,12 +739,10 @@
       }
       \strng{namehash}{4d21a3489366f503f9b29de271bcf0ee}
       \strng{fullhash}{216e74d50c3dd1b0fdb4001772205a8f}
-      \strng{fullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{bibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{authorbibnamehash}{216e74d50c3dd1b0fdb4001772205a8f}
       \strng{authornamehash}{4d21a3489366f503f9b29de271bcf0ee}
       \strng{authorfullhash}{216e74d50c3dd1b0fdb4001772205a8f}
-      \strng{authorfullhashraw}{216e74d50c3dd1b0fdb4001772205a8f}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}

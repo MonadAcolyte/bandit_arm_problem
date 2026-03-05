@@ -60,7 +60,7 @@
 \title{\textcolor{ForestGreen}{\textbf{COMP532 - Machine Learning and Bio-inspired Algorithms: Assignment I \\ Bandit Arm Problem}}}
 %\author{Zhiheng Wang - 201865071 \AND Laura Sierra Pena - 201936067 \AND Ainur Smailova - 201874285 \AND Yan-Yu Lin - 201948160 \AND Saif Ur Rehman \AND Joe Davies - 201950629 \AND Pablo Ramos - 201885602}
 
-\setlength\parindent{0mm}
+\setlength\parindent{10mm}
 
 %%%%%%%%%%%%
 %%% BODY %%%
@@ -108,15 +108,26 @@
 
 \maketitle
 
-Zhiheng Wang - 201865071 \\ Laura Sierra Pena - l.v.sierra-pena@liverpool.ac.uk - 201936067 \\ Ainur Smailova - 201874285 \\ Yan-Yu Lin - 201948160 \\ Joe Davies - 201950629 \\ Pablo Ramos - sgpramos@liverpool.ac.uk- 201885602
+\textit{University of Liverpool} \smallskip \\
+ Zhiheng Wang - 201865071 \\ 
+ Laura Sierra Pena - l.v.sierra-pena@liverpool.ac.uk - 201936067 \\ 
+ Ainur Smailova - 201874285 \\ 
+ Yan-Yu Lin - 201948160 \\ 
+ Joe Davies - 201950629 \\ 
+ Pablo Ramos - sgpramos@liverpool.ac.uk- 201885602 \\
 
-{\color{ForestGreen} \rule{\linewidth}{0.5mm}} % Lines with colour options
+{\setlength\parindent{0mm} \color{ForestGreen} \rule{\linewidth}{0.5mm}} % Lines with colour options
 
 \section*{\LARGE Introduction}
-Reinforcement learning is an artificial intelligence approach using an intelligence agent which takes actions in a dynamics environment and learns from its interactions. The objective is to maximise the expected cumulative reward. 
-For this assignment, we were asked to implement a multi-armed bandit algorithm. A multi-armed bandit problem is theoretically when in a gambling scenario with multiple slot machines, known as bandits, and playing to determine which machine will return the maximised reward. Using reinforcement learning, an agent has multiple arms as options to choose from, with the potential of providing a reward under uncertainty. Sequentially, actions will influence the agents' decisions by providing evaluative feedback.
+Reinforcement learning is an artificial intelligence approach that uses agents set to take actions in complex environments and learn from their interactions. The objective is to maximise the expected cumulative reward.
 
-Multi-armed bandits (MABs) are a simplified reinforcement learning setting where an agent repeatedly chooses among several arms to maximise reward under uncertainty. A central difficulty is the exploration exploitation trade-off. When action value estimates are maintained, the arm with the highest current estimate is the greedy choice. Selecting it is exploitation because it uses the best option according to current knowledge, while selecting a non-greedy arm is exploration because it can reduce uncertainty and improve future estimates. Exploitation tends to maximise expected reward in the next step, but exploration can lead to higher total reward over a longer horizon by helping the agent discover arms that are actually better. Since a single action choice cannot do both at once, balancing exploration and exploitation is unavoidable in bandit problems. (Sutton \& Barto, 2018, Ch.2, Sec 2.1)
+As defined by Sutton \& Barto, 2018, Ch.2, Sec 2.1, Multi-armed bandits (MABs) are a simplified reinforcement learning setting where an agent repeatedly chooses among several bandits to maximise reward under uncertainty. 
+
+A multi-armed bandit problems can be interpreted as a casino parlor: multiple slot machines, which are referred to as bandits, are set to give random rewards. The value of these rewards and their likelihood can be hardcoded to behave like a probability density function. I.E. the slot machines, when pulled, may give positive or negative rewards that converge around a mean. That said, many kinds of statistical distributions may be implemented, such as uniform distributions with upper and lower bounds, triangular distributions with a mode, and so on.
+
+Using reinforcement learning, agents must be set with some kind of policy that enables taking the optimal choice among the multiple slot machines, I.E. the bandits, available. Sequentially pulling on different bandits, will influence the agents' decisions by providing evaluative feedback.
+
+A central difficulty is the exploration exploitation trade-off. When action value estimates are maintained, the arm with the highest current estimate is the greedy choice. Selecting it is exploitation because it uses the best option according to current knowledge, while selecting a non-greedy arm is exploration because it can reduce uncertainty and improve future estimates. Exploitation tends to maximise expected reward in the next step, but exploration can lead to higher total reward over a longer horizon by helping the agent discover arms that are actually better. Since a single action choice cannot do both at once, balancing exploration and exploitation is intrinsical in bandit problems.
 
 A common way to implement action value methods is to estimate each arm's value from observed rewards. One simple estimator is the sample average, computed as the total reward collected from an arm divided by the number of times it has been selected. (Antonacopoulos et al., 2025)
 
@@ -217,7 +228,7 @@ Overall, these graphs support the conclusion that in static environments we want
 \begin{itemize}
   \item Experimental results show the average estimator decays over time because it calculates the value with historical memory
   \item Moving average shows lower efficiency at the start because it has lower information/data to work with, but over time it improves significantly due to the dynamic nature of the estimator 
-  \item For the incremental estimator, not only did it start off with relatively high optimal selection but also it performed the most optimally over time. This is because it accumulates data results and it has more accumulative data to work with. 
+  \item For the incremental estimator, not only did it start off with relatively high optimal selection, but also it performed the most optimally over time. This is because it accumulates data results, and it has more accumulative data to work with. 
   \item These results indicate that dynamic estimators are superior to the average estimator, and the incremental estimator is the most optimal (within our timespan). Given more time, there is a potential for the moving average to overtake the incremental estimator, but this cannot be accurately shown from the data.
 \end{itemize}
 \section*{\LARGE Discussion}
@@ -236,7 +247,7 @@ Key Action-Value methods used:
 \subsubsection*{1. Sample-Average Estimator}
 
 This method estimates each arm's value by calculating the mean of all rewards received from that arm. It was tested with epsilon values of 0.2, 0.5, and 0.7....
-In static environments it works well, especially when consistent with small epsilon valued. The agent does not need much exploration once it learns the arm values. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quic wh the environment changes.
+In static environments it works well, especially when consistent with small epsilon valued. The agent does not need much exploration once it learns the arm values. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quickly with the environment changes.
 
 \subsubsection*{2. Moving Average Estimator}
 
