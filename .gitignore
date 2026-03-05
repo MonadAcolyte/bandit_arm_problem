@@ -1,0 +1,10 @@
+% Intermediary files should not be verisioned
+
+    *.aux
+    *.pdf
+    *.ps
+    *.log
+    *.dvi
+    *.tex~
+    *.bbl % BibTex specific
+    *.blg % BibTex specific
