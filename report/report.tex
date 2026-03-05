@@ -131,7 +131,7 @@ A central difficulty is the exploration exploitation trade-off. When action valu
 
 A common way to implement action value methods is to estimate each arm's value from observed rewards. One simple estimator is the sample average, computed as the total reward collected from an arm divided by the number of times it has been selected. (Antonacopoulos et al., 2025)
 
-To compare bandit methods, performance is often summarised using reward based curves such as cumulative or average reward over time, together with the frequency of selecting the optimal arm. (Antonacopoulos et al., 2025)
+To compare bandit methods, performance is often visualised using reward based curves such as cumulative or average reward over time, together with the frequency of selecting the optimal arm. (Antonacopoulos et al., 2025)
 
 In many real applications, reward distributions are non-stationary and can change over time. This motivates methods that adapt to recent observations rather than relying on full historical averages. Recent work has also explored explicit uncertainty measures, for example using the fractal dimension of reward history and integrating it into standard bandit algorithms, with reported improvements in cumulative reward in non-stationary settings. (Nandhini \& Pandian, 2025)
 
@@ -161,11 +161,11 @@ Inc Update (step = 0.3)                    & softmax       & Dynamic (Non-statio
 \end{tabular}
 \end{table}
 
-To approach this, we first compared types of agents with different strategies and update rules in different environments, specifically one static environment and one non-static (dynamic) environment, as seen in Table \ref{table_1}.
+To approach the problem, we first compared types of agents with different strategies and update rules in different environments, specifically one static environment and one non-static (dynamic) environment, as seen in Table \ref{table_1}.
 
 After analysing the different strategies, we decided object-oriented programming presented an efficient and effective way to implement the multi-armed bandit algorithm. We started by creating the base abstract arm class, with multiple subclasses, each with different distributions, secondly, a base abstract Estimator class which provides estimation of different actions and ways to update that estimation. Thirdly, a base abstract Strategy class, which selects which action to perform based on the estimations, and finally an Agent class, which is the combination of an estimator and a strategy, as well as recording the cumulative reward over time.
 
-In our environment, we have a list of five arms, and ten agents. In each step, each agent selects an arms using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
+In our environment, we have a list of five arms, and ten agents. In each step, each agent selects an arm using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
 
 To ensure reproducibility in between runs, we used NumPy's random seed module and selected different values for the seeds.
 
