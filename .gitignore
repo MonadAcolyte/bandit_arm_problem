@@ -5,18 +5,18 @@
 
 # Basic extensions
 #    *.pdf # Tracked for now
-report/*.aux
-report/*.ps
-report/*.log
-report/*.dvi
-report/*.tex~
-report/*.fdb
-report/*.log
-report/*.synctex.gz
-report/*.fdb_latexmk
+    report/*.aux
+    report/*.ps
+    report/*.log
+    report/*.dvi
+    report/*.tex~
+    report/*.fdb
+    report/*.log
+    report/*.synctex.gz
+    report/*.fdb_latexmk
 
 # BibTex specific
-report/*.bbl
-report/*.blg
+    report/*.bbl
+    report/*.blg
 
 
