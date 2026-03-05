@@ -161,9 +161,38 @@ Inc Update (step = 0.3)                    & softmax       & Dynamic (Non-statio
 \end{tabular}
 \end{table}
 
-To approach the problem, we first compared types of agents with different strategies and update rules in different environments, specifically one static environment and one non-static (dynamic) environment, as seen in Table \ref{table_1}.
+To approach the problem, a set of agents was formulated. In Table \ref{table_1} the designed agents can be seen in terms of their estimator, strategy (I.E. its policy) and which environment it faced. The two environments were designed as follows:
 
-After analysing the different strategies, we decided object-oriented programming presented an efficient and effective way to implement the multi-armed bandit algorithm. We started by creating the base abstract arm class, with multiple subclasses, each with different distributions, secondly, a base abstract Estimator class which provides estimation of different actions and ways to update that estimation. Thirdly, a base abstract Strategy class, which selects which action to perform based on the estimations, and finally an Agent class, which is the combination of an estimator and a strategy, as well as recording the cumulative reward over time.
+\begin{itemize}
+  \item A static environment consisting of many bandits behaving according a mixture of statistical distributions with fix parameters. This scenario tests the policies Softmax and Espislon-Greedy against each other. Fix distributions are perfect for average estimator, which is set equally given to all the agents.
+  \item A dynamic environment consisting of the same bandits, this time with changing parameters. Given that the best performing policy in the previous scenario was Softamax, it was given to most of the agents, and different estimators were tested. A single Espislon-Greedy policy agent was kept as reference.    
+\end{itemize}
+
+After drafting different programming approaches, full object-oriented programming was chosen because presented an efficient and effective way to implement the multi-armed bandit algorithm with multiple configurations. 
+
+The base abstract arm class was created with multiple subclasses, each with different distributions and the methods required to update and reset them. See Figure \ref{class_bandit}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{bandit.jpeg}
+  \caption{\small Design of the bandit class}
+  \label{class_bandit}
+\end{figure}
+
+An Estimator class allows building the agents with different kinds of estimators. See Figure \ref{class_estimator}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{estimator.jpeg}
+  \caption{\small Design of the estimator class}
+  \label{class_estimator}
+\end{figure}
+
+A base abstract Strategy class, which selects which action to perform based on the estimations, and finally an Agent class, which is the combination of an estimator and a strategy, as well as recording the cumulative reward over time. See Figure \ref{class_strategy}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{strategy.jpeg}
+  \caption{\small Design of the strategy class}
+  \label{class_strategy}
+\end{figure}
 
 In our environment, we have a list of five arms, and ten agents. In each step, each agent selects an arm using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1772709104.1164 -1
+["biber report"] 0 "report.bcf" "report.bbl" "report" 1772713293.41458 -1
   "Bandit.bib" 1772660588.94549 9758 8a8eabf0390ede65137bb5cfe612f005 ""
-  "report.bcf" 1772709103.94878 133419 0361cabea7888c26e54839547904fada "pdflatex"
+  "report.bcf" 1772713293.32267 133419 0361cabea7888c26e54839547904fada "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1772709102.04436 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772709104.11708 0
+["pdflatex"] 1772713292.36755 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772713293.41494 0
   "/etc/texmf/web2c/texmf.cnf" 1765019585.00569 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772709101.72072 20835 f7ae5c82e4f5a2ba325a7671f39019ef ""
+  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772713291.09326 22096 b8ebb295903092a628db2019134e61fb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -118,16 +118,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765039315.30576 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765039404 8213967 8ae5ed765b03e4015d62913d5f7e427d ""
+  "figures/bandit.jpeg" 1772660588.95014 207484 7a826aacda151469ed72cc88efade48e ""
   "figures/dynamic_cumulative.jpeg" 1772660588.95111 88301 cf71bbd630e77d0f14d7c3ae9fc9417b ""
   "figures/dynamic_noisy_cumulative.jpeg" 1772660588.95225 119476 8f7bd8f50f3c7aef6f8a45786788d253 ""
   "figures/dynamic_percentage.jpeg" 1772660588.95309 86474 45f59daddef655ec13d7bcb68ca02843 ""
+  "figures/estimator.jpeg" 1772660588.95371 65775 abfe457b75a3b35496df9df03835902d ""
   "figures/static_average.jpeg" 1772660588.9546 104509 a558638da2f3229b67f6c11d59b757c7 ""
   "figures/static_cumulative_reward.jpeg" 1772660588.95549 110938 db08c5c4d995fcb73df164d947b7a796 ""
   "figures/static_percentage.jpeg" 1772660588.95709 98101 ab0e8e6f35da67339cfca300601ac26b ""
-  "report.aux" 1772709103.94378 3283 cf65f307081d78758d20d463237c86c7 "pdflatex"
+  "figures/strategy.jpeg" 1772660588.95746 40673 8cc002e9c777504b809e9c088a59a3f0 ""
+  "report.aux" 1772713293.31967 3825 28d874d9c8b2ab1282e066f83523088f "pdflatex"
   "report.bbl" 1772660593.41711 41226 6f8ae8c08a0a8760482e24c45d30a1de "biber report"
-  "report.run.xml" 1772709103.95088 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
-  "report.tex" 1772709101.72072 20835 f7ae5c82e4f5a2ba325a7671f39019ef ""
+  "report.run.xml" 1772713293.32492 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
+  "report.tex" 1772713291.09326 22096 b8ebb295903092a628db2019134e61fb ""
   (generated)
   "report.aux"
   "report.bcf"
