@@ -3,12 +3,16 @@
 # LaTex #
 #########
 
-    *.aux
+# Basic extensions
 #    *.pdf # Tracked for now
+    *.aux
     *.ps
     *.log
     *.dvi
     *.tex~
+    *.fdb
+    *.log
+    *.synctex.gz
 
 # BibTex specific
     *.bbl
