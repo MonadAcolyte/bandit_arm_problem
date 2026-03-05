@@ -5,15 +5,16 @@
 
 # Basic extensions
 #    *.pdf # Tracked for now
-    *.aux
-    *.ps
-    *.log
-    *.dvi
-    *.tex~
-    *.fdb
-    *.log
-    *.synctex.gz
+    report/*.aux
+    report/*.ps
+    report/*.log
+    report/*.dvi
+    report/*.tex~
+    report/*.fdb
+    report/*.log
+    report/*.synctex.gz
 
 # BibTex specific
-    *.bbl
-    *.blg
+    report/*.bbl
+    report/*.blg
+
