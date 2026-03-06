@@ -108,13 +108,14 @@
 
 \maketitle
 
-\textit{University of Liverpool} \smallskip \\
- Zhiheng Wang - 201865071 \\ 
+\textit{University of Liverpool} \\
+\bigskip
+ Zhiheng Wang - Z.Wang252@liverpool.ac.uk - 201865071 \\ 
  Laura Sierra Pena - l.v.sierra-pena@liverpool.ac.uk - 201936067 \\ 
- Ainur Smailova - 201874285 \\ 
- Yan-Yu Lin - 201948160 \\ 
- Joe Davies - 201950629 \\ 
- Pablo Ramos - sgpramos@liverpool.ac.uk- 201885602 \\
+ Ainur Smailova - Sgasmai2@liverpool.ac.uk - 201874285 \\ 
+ Yan-Yu Lin - sgylin20@liverpoll.ac.uk - 201948160 \\ 
+ Joe Davies - J.Davies51@liverpool.ac.uk - 201950629 \\ 
+ Pablo Ramos - sgpramos@liverpool.ac.uk - 201885602 \\
 
 {\setlength\parindent{0mm} \color{ForestGreen} \rule{\linewidth}{0.5mm}} % Lines with colour options
 
@@ -150,13 +151,13 @@ Total Average                              & epsilon = 0.3 & Static (Stationary 
 Total Average                              & epsilon = 0.5 & Static (Stationary Bandits)      \\
 Total Average                              & epsilon = 0.7 & Static (Stationary Bandits)      \\
 Total Average                              & epsilon = 0.9 & Static (Stationary Bandits)      \\
-Total Average                              & softmax       & Static (Stationary Bandits)      \\
-Total Average                              & softmax       & Dynamic (Non-stationary Bandits) \\
-Moving Average (window=100)                & softmax       & Dynamic (Non-stationary Bandits) \\
-Moving Average (window=20)                 & softmax       & Dynamic (Non-stationary Bandits) \\
-Inc Update (step = 0.1)                    & softmax       & Dynamic (Non-stationary Bandits) \\
-Epsilon-Greedy (epsilon=0.1, step=0.1) & softmax       & Dynamic (Non-stationary Bandits) \\
-Inc Update (step = 0.3)                    & softmax       & Dynamic (Non-stationary Bandits) \\
+Total Average                              & Softmax       & Static (Stationary Bandits)      \\
+Total Average                              & Softmax       & Dynamic (Non-stationary Bandits) \\
+Moving Average (window=100)                & Softmax       & Dynamic (Non-stationary Bandits) \\
+Moving Average (window=20)                 & Softmax       & Dynamic (Non-stationary Bandits) \\
+Inc Update (step = 0.1)                    & Softmax       & Dynamic (Non-stationary Bandits) \\
+Epsilon-Greedy (epsilon=0.1, step=0.1) & Softmax       & Dynamic (Non-stationary Bandits) \\
+Inc Update (step = 0.3)                    & Softmax       & Dynamic (Non-stationary Bandits) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -164,35 +165,37 @@ Inc Update (step = 0.3)                    & softmax       & Dynamic (Non-statio
 To approach the problem, a set of agents was formulated. In Table \ref{table_1} the designed agents can be seen in terms of their estimator, strategy (I.E. its policy) and which environment it faced. The two environments were designed as follows:
 
 \begin{itemize}
-  \item A static environment consisting of many bandits behaving according a mixture of statistical distributions with fix parameters. This scenario tests the policies Softmax and Espislon-Greedy against each other. Fix distributions are perfect for average estimator, which is set equally given to all the agents.
-  \item A dynamic environment consisting of the same bandits, this time with changing parameters. Given that the best performing policy in the previous scenario was Softamax, it was given to most of the agents, and different estimators were tested. A single Espislon-Greedy policy agent was kept as reference.    
+  \item A static environment consisting of many bandits behaving according to a mixture of statistical distributions with fixed parameters. This scenario tests the policies Softmax and Espislon-Greedy against each other. Fixed distribution bandits are ideally estimated with average estimators, which are set equally to all the agents.
+  \item A dynamic environment consisting of the same bandits, this time with changing parameters. Given that the best performing policy in the previous scenario was Softmax, it was assigned to most of the agents, and different estimators were tested. A single Espislon-Greedy policy agent was kept as reference.    
 \end{itemize}
 
-After drafting different programming approaches, full object-oriented programming was chosen because presented an efficient and effective way to implement the multi-armed bandit algorithm with multiple configurations. 
+After drafting different programming approaches, full object-oriented programming was chosen because it presented an efficient and effective way to implement the multi-armed bandit algorithm with multiple configurations:
 
-The base abstract arm class was created with multiple subclasses, each with different distributions and the methods required to update and reset them. See Figure \ref{class_bandit}
+\begin{itemize}
+  \item The base abstract arm class was created with multiple subclasses, each with different distributions and the methods required to update and reset them, refer to Figure \ref{class_bandit}.
+  \item An Estimator class allows building the agents with different kinds of estimators refer to Figure \ref{class_estimator}.
+  \item The Strategy class, which selects which action to perform based on the estimations, and finally an Agent class, which is the combination of an estimator and a strategy, as well as recording the cumulative reward over time, refer to Figure \ref{class_strategy}.
+\end{itemize}
 
-\begin{figure}
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{bandit.jpeg}
-  \caption{\small Design of the bandit class}
+  \caption{\small Design of the Bandit class.}
   \label{class_bandit}
 \end{figure}
 
-An Estimator class allows building the agents with different kinds of estimators. See Figure \ref{class_estimator}
-
-\begin{figure}
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{estimator.jpeg}
-  \caption{\small Design of the estimator class}
+  \caption{\small Design of the Estimator class}
   \label{class_estimator}
 \end{figure}
 
-A base abstract Strategy class, which selects which action to perform based on the estimations, and finally an Agent class, which is the combination of an estimator and a strategy, as well as recording the cumulative reward over time. See Figure \ref{class_strategy}
-
-\begin{figure}
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{strategy.jpeg}
-  \caption{\small Design of the strategy class}
+  \caption{\small Design of the Strategy class}
   \label{class_strategy}
 \end{figure}
+
+\pagebreak
 
 In each step, each agent selects an arm using its specific strategy. The agent receives a reward from the selected arm, and the agent updates its estimator with that reward. After that, the results are then plotted with cumulative reward in the y-axis and timesteps in the x-axis. The results show a range of cumulative rewards over timesteps, where a lower epsilon value corresponds to a higher cumulative reward.
 
@@ -207,7 +210,7 @@ To ensure reproducibility in between runs, we used NumPy's random seed module an
   \label{cumulative_static}
 \end{figure}
 
-In Figure \ref{cumulative_static} it can be observed that over many steps, small values for $\varepsilon $ and softmax strategies accumulate reward much faster, leading to clearly higher curves. Strategies with large $\varepsilon $ show significantly lower cumulative reward, which corresponds to higher cumulative regret.
+In Figure \ref{cumulative_static} it can be observed that over many steps, small values for $\varepsilon $ and Softmax strategies accumulate reward much faster, leading to clearly higher curves. Strategies with large $\varepsilon $ show significantly lower cumulative reward.
 
 \begin{figure}
   \includegraphics[width=\linewidth]{static_average.jpeg}
@@ -215,8 +218,8 @@ In Figure \ref{cumulative_static} it can be observed that over many steps, small
   \label{average_static}
 \end{figure}
 
-The patterns match the best-arm plot: small $\varepsilon$  (0.1, 0.3) and softmax achieve higher steady-state average reward. Large $\varepsilon$ values suffer from excessive exploration, so their average reward stabilizes at a much lower level.
-This illustrates that, in a static bandit, too much exploration directly hurts long-run reward.
+The patterns match the best-arm plot: small $\varepsilon$  (0.1, 0.3) and Softmax achieve higher steady-state average reward. Large $\varepsilon$ values suffer from excessive exploration, so their average reward stabilizes at a much lower level.
+This illustrates that, in a static bandit, unnecessary exploration is detrimental to long-run reward.
 
 \begin{figure}
   \includegraphics[width=\linewidth]{static_percentage.jpeg}
@@ -225,34 +228,39 @@ This illustrates that, in a static bandit, too much exploration directly hurts l
 \end{figure}
 
 In Figure \ref{percentage_static} it is shown that in a stationary environment, lower $\varepsilon $ (0.1) quickly converges to selecting the best arm most of the time, giving high optimal-arm percentages. Higher $\varepsilon $ values (0.7, 0.9) keep exploring too often, so their optimal-arm selection rate remains low even after many steps.
-The Softmax policy rapidly concentrates most probability on the best arm while still doing some graded exploration, so it ends up with the highest optimal-arm selection.
+The Softmax policy rapidly concentrates the highest probability on the best arm, while still doing some graded exploration, so it ends up with the highest optimal-arm selection.
 
-\subsection{Dynamic Environment}
-\begin{figure}
+All methods increase cumulative reward but the slopes separate as the environment changes. The average estimator (green) initially performs well but its curve flattens compared to the others, reflecting slower adaptation and more pulls of suboptimal arms. Moving average (yellow) does better, and the incremental update (orange) achieves the steepest curve, the highest long-term cumulative reward, which means lower loss of potential in a non-stationary bandit.
+
+Figure \ref{cumulative_noisy_dynamic} adds more estimators (different windows, step sizes, $\varepsilon $-greedy) and shows them under higher noise. Despite the noise, methods with larger constant steps and exploration ($\varepsilon $-greedy) tend to track changes better and obtain higher cumulative reward, while methods that average over too much history lag behind because old data dominates their estimates.
+
+\pagebreak
+
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{dynamic_cumulative.jpeg}
   \caption{\small Cumulative reward over time with standard deviation bounds for dynamic environment}
   \label{cumulative_dynamic}
 \end{figure}
 
-All methods increase cumulative reward, but the slopes separate as the environment changes. The average estimator (green) initially performs well but its curve flattens compared to the others, reflecting slower adaptation and more pulls of suboptimal arms. Moving average (yellow) does better, and the incremental update (orange) achieves the steepest curve, the highest long-term cumulative reward, which means lower regret in a non-stationary bandit.
-
-\begin{figure}
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{dynamic_noisy_cumulative.jpeg}
   \caption{\small Cumulative reward over time with standard deviation bounds for dynamic environment}
   \label{cumulative_noisy_dynamic}
 \end{figure}
 
-Figure \ref{cumulative_noisy_dynamic} adds more estimators (different windows, step sizes, $\varepsilon $-greedy) and shows them under higher noise. Despite the noise, methods with larger constant steps and exploration ($\varepsilon $-greedy) tend to track changes better and obtain higher cumulative reward, while methods that average over too much history lag behind because old data dominates their estimates.
-
-\begin{figure}
+\begin{figure}[h]
   \includegraphics[width=\linewidth]{dynamic_percentage.jpeg}
   \caption{\small Percentage of Best Arm Selection over time in a Dynamic Environmentt}
   \label{percentage_dynamic}
 \end{figure}
 
-At the start, all methods select the best arm rarely, because their value estimates are still very uncertain. The average estimator (green) learns reasonably fast but then degrades as the environment changes, since it keeps all past rewards and therefore reacts slowly to non-stationarity.
+\subsection{Dynamic Environment}
+
+At the start, all methods rarely select the best arm, because their value estimates are uncertain. The average estimator (green) learns reasonably fast but then degrades as the environment changes, since it keeps all past rewards and therefore reacts slowly to non-stationary bandits.
+
 The moving average (yellow) reacts faster to changes than the plain average, so the percentage of best-arm selections improves more steadily. The incremental update with fixed step size (orange) adapts the quickest and maintains the highest fraction of optimal-arm selections over time, showing that constant-step updates are more appropriate in a dynamic environment.
-Overall, these graphs support the conclusion that in static environments we want low exploration (or Softmax), while in dynamic environments we need estimators and step sizes that adapt quickly to changes.
+
+Overall, these results support the observation that in static environments keeping exploration  as low as possible is ideal. This is something that Softmax can easily account for. Whereas in dynamic environments it is necessary to implement estimators that adapt quickly to changes, which also includes Softmax.
 
 \begin{itemize}
   \item Experimental results show the average estimator decays over time because it calculates the value with historical memory
@@ -274,41 +282,61 @@ One simple strategy to address this trade-off is the epsilon-greedy method. In e
 
 \subsection*{Problem 3}
 
-The true value of an action is the average reward that was received after that action was taken. The difference between methods lies in how they use that uncertainty to balance exploration and exploitation. In our project we looked at some basic ways to estimate that value and used it to decide what to do next. In terms of static and dynamic environments, we mean the stationary and non-stationary environments.
+The true value of an action is the average reward that was received after that action was taken such that the difference between methods lies in how they use that uncertainty to balance exploration and exploitation.
 
-Key Action-Value methods used:
+\bigskip
 
-\subsubsection*{1. Sample-Average Estimator}
+In a more strict mathematical sense:
 
-This method estimates each arm's value by calculating the mean of all rewards received from that arm. It was tested with epsilon values of 0.2, 0.5, and 0.7....
-In static environments it works well, especially when consistent with small epsilon valued. The agent does not need much exploration once it learns the arm values. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quickly with the environment changes.
+\begin{center}
+  $Q^{\pi}_{s, a} = E_{\pi}\{ R_{t} | s_{t}=s, a_{t} = a \}$ \\
+  \bigskip
 
-\subsubsection*{2. Moving Average Estimator}
+  \textit{The action value with policy $\pi$, given the state space $s$ and action space $a$, is equal to the estimated value of the reward $R$ at the current time $t$ given that the agent has taken action $a_{t}$ under the state $s_{t}$.} \\ 
+  \bigskip
 
-Instead of using all history, this method only considers the last N rewards (windows of 100 and 20 were used).
-At the beginning it performs worse than sample-average because it has less data. But in dynamic environments it improves over time since it forgets old rewards and reacts better to changes. A window of 20 showed slightly better results than a window of 100 in most cases.
+  \textit{Which can be calculated as:}
+  \bigskip
 
-\subsubsection*{3. Incremental Update Rule}
+  $E_{\pi}\{ \sum_{k = 0}^{\infty} \gamma^{k}r_{t+k+1} | s_{t}=s, a_{t} = a  \} $
 
-Uses the formula $Q_{n+1} = Q_n + \alpha [R_n - Q_n]$ with a fixed step size $\alpha $, which makes recent rewards more important than old ones.
-This was the best estimator for dynamic environments. It adapted the fastest to reward distribution changes and kept the highest percentage of optimal arm selections over time. It also started well from the beginning, not only at the end. The team notes that moving average could eventually overcome it given more time, but this was not confirmed by the data.
+\end{center}
 
-\subsubsection*{4. $\varepsilon $-Greedy Strategy}
+In this experiment the estimated value for each action was tracked with different methods, but Incremental Update rule is the closest to the aforementioned definition.
 
-The agent exploits the best known arm with probability $1-\varepsilon $ and explores randomly with probability $\varepsilon $. Values of 0.2, 0.5 and 0.7 were compared.
-In static environments, low epsilon (0.1-0.3) was clearly better because excessive exploration hurts performance when arm values do not change. In dynamic environments, moderate exploration was more useful because the agent needs to detect when the best arm changes. Results varied between seeds, which shows the stochastic nature of the problem.
+\subsubsection*{Incremental Update Rule}
 
-\subsubsection*{5. Softmax Strategy}
+It uses the formula $Q_{n+1} = Q_n + \alpha [R_n - Q_n]$ with a fixed step size $\alpha $, which makes recent rewards more important than old ones.
+This was the best estimator for the tested dynamic environment. It adapted the fastest to reward distribution changes and kept the highest percentage of optimal arm selections over time. It also started well from the beginning, not only at the end. The team notes that moving average could eventually overcome it given more time, but this was not confirmed by the data.
+
+\subsubsection*{Sample-Average Estimator}
+
+This method estimates each arm's value by calculating the mean of all rewards received from that arm.
+In static environments it works well, especially when consistent with small epsilon values. The agent does not need much exploration once it learns a good approximation of the bandits' expected reward. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quickly with the environment changes.
+
+\subsubsection*{Moving Average Estimator}
+
+Instead of using all past single rewards, this method only considers the last N rewards (windows of 100 and 20 were used).
+At the beginning, it performs worse than the total average estimator because it has less data. But in dynamic environments, it improves over time, since it forgets old rewards and reacts better to changes. A window of 20 showed slightly better results than a window of 100 in most cases.
+
+\subsubsection*{$\varepsilon $-Greedy Strategy}
+
+The agent exploits the best known arm with probability $1-\varepsilon $ and explores randomly with probability $\varepsilon $ where, as set for this study, $\varepsilon \in [0.1, 0.3, 0.5, 0.7, 0.9]$.
+
+In static environments, low epsilon (0.1, -0.3) was clearly better because excessive exploration hurts performance when arm values do not change. In dynamic environments, moderate exploration was more useful because the agent needs to detect when the best arm changes. Initially, single runs were used with different random seeds. Results varied between seeds, which shows the stochastic nature of the problem. To account for this, the final experiments were performed in groups of 50 runs whose results were averaged. Looking at the conifidence intervals is a good to show the most likely space of single scenarios.
+
+\subsubsection*{Softmax Strategy}
 
 Instead of a binary explore/exploit decision, Softmax assigns probabilities to each arm based on learned preferences, updated by gradient ascent.
 
-\subsubsection*{Subtitle: Considerations on Action Value Methods}
+\subsubsection*{Considerations on Action Value Methods}
 
-Softmax was the best strategy overall for static environments. It concentrated probability on the best arm faster than epsilon-greedy while still doing some exploration. It achieved the highest optimal-arm selection rate among all strategies tested.
+Softmax was the best strategy overall for static environments. It concentrated the probability on the best arm more raidly than epsilon-greedy, while still doing some exploration. And so, achieved the highest optimal-arm selection rate among all strategies tested.
+
 In general, static environments need low exploration and stable estimators, while dynamic environments need methods that can forget old data and keep exploring. The incremental update is the most suitable estimator for non-stationary settings.
 
-\section*{\LARGE Conclusions}
-We found that the SoftMax strategy was the best performing one on our stationary setup. We found that, when faced with responsive bandits, the best estimator was incremental update, followed by moving average with a window of 20. Total average estimators are very unreliable when dealing with non-static bandits (what we defined as a dynamic environment).
+\section*{\LARGE Conclusion}
+It was found that the Softmax strategy performed the most optimally within this particular setup; in contrast with Epsilon-greedy. The subsequent experiment tested for an optimal estimator with a group of Softmax policy agents. It was found that when faced with responsive bandits, the best estimator was incremental update, followed by moving average with a window of 20. The confidence intervals show that Incremental Update has a quicker response, and occasionally greatly outperforms the others. Also, the confidence intervals for the Moving Average estimator show that it can be less consistent and has less potential overall.
 
 % Implicit citations
 \nocite{antonacopoulos_pattern_2025}

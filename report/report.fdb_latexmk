@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1772715971.21142 -1
+["biber report"] 0 "report.bcf" "report.bbl" "report" 1772808482.97621 -1
   "Bandit.bib" 1772660588.94549 9758 8a8eabf0390ede65137bb5cfe612f005 ""
-  "report.bcf" 1772715971.04099 133419 0361cabea7888c26e54839547904fada "pdflatex"
+  "report.bcf" 1772808482.87382 133419 0361cabea7888c26e54839547904fada "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1772715969.16136 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772715971.2121 0
+["pdflatex"] 1772808481.47625 "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" "report.pdf" "report" 1772808482.97658 0
   "/etc/texmf/web2c/texmf.cnf" 1765019585.00569 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772715968.85096 22035 98d357f1f02758104345ee796eb892ce ""
+  "/home/alonso/Wizardry/repositories/bandit_arm_problem/report/report.tex" 1772808480.0849 23422 45df7f4c8623e504bae84c1cf6a8419d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -33,11 +33,13 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1704662920 150008 7a05b0fdc0167c04e192003e780ab195 ""
@@ -127,10 +129,10 @@
   "figures/static_cumulative_reward.jpeg" 1772660588.95549 110938 db08c5c4d995fcb73df164d947b7a796 ""
   "figures/static_percentage.jpeg" 1772660588.95709 98101 ab0e8e6f35da67339cfca300601ac26b ""
   "figures/strategy.jpeg" 1772660588.95746 40673 8cc002e9c777504b809e9c088a59a3f0 ""
-  "report.aux" 1772715971.03599 3825 28d874d9c8b2ab1282e066f83523088f "pdflatex"
+  "report.aux" 1772808482.86982 3823 9dd15e8cc324bb70494bfb25f222b1a4 "pdflatex"
   "report.bbl" 1772660593.41711 41226 6f8ae8c08a0a8760482e24c45d30a1de "biber report"
-  "report.run.xml" 1772715971.04299 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
-  "report.tex" 1772715968.85096 22035 98d357f1f02758104345ee796eb892ce ""
+  "report.run.xml" 1772808482.8754 2471 498fe56bd5efaaec0240326062f58cc6 "pdflatex"
+  "report.tex" 1772808480.0849 23422 45df7f4c8623e504bae84c1cf6a8419d ""
   (generated)
   "report.aux"
   "report.bcf"

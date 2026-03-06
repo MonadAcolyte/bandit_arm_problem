@@ -1,0 +1,15 @@
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q .\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qwang_exploration_2019.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qsutton_reinforcement_nodate.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qbubeck_regret_2012.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qberger-tal_exploration-exploitation_2014.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qnandhini_fractal_2025.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qantonacopoulos_pattern_2025.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWe found that the SoftMax strategy was the best performing one on our stationary setup.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIn this experiment the estimated value for each action was tracked with different methods, but Incremental Uptade is the closest to the aforementioned definition.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QIn a more strict mathematical sense:\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q(Sutton & Barto, 2014)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe parameter \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q therefore controls the balance between exploration and exploitation: larger values of \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q encourage more exploration, while smaller values favour exploiting the best-known arm.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q(Bubeck & Cesa-Bianchi, 2012)\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QAll methods increase cumulative reward but the slopes separate as the environment changes.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QThe average estimator (green) initially performs well but its curve flattens compared to the others, reflecting slower adaptation and more pulls of suboptimal arms.\\E$"}

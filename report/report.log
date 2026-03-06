@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.6)  5 MAR 2026 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.6)  6 MAR 2026 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,61 +648,75 @@ Package biblatex Info: Reference segment=0 on input line 69.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--119
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<./figures/bandit.jpeg, id=10, 1532.72626pt x 603.25375pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<./figures/bandit.jpeg, id=14, 1532.72626pt x 603.25375pt>
 File: ./figures/bandit.jpeg Graphic file (type jpg)
 <use ./figures/bandit.jpeg>
-Package pdftex.def Info: ./figures/bandit.jpeg  used on input line 176.
+Package pdftex.def Info: ./figures/bandit.jpeg  used on input line 181.
 (pdftex.def)             Requested size: 455.24411pt x 179.17336pt.
-<./figures/estimator.jpeg, id=11, 856.19875pt x 341.275pt>
+<./figures/estimator.jpeg, id=15, 856.19875pt x 341.275pt>
 File: ./figures/estimator.jpeg Graphic file (type jpg)
 <use ./figures/estimator.jpeg>
-Package pdftex.def Info: ./figures/estimator.jpeg  used on input line 184.
+Package pdftex.def Info: ./figures/estimator.jpeg  used on input line 187.
 (pdftex.def)             Requested size: 455.24411pt x 181.45811pt.
- [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3 <./figures/bandit.jpeg> <./figures/estimator.jpeg>]
-<./figures/strategy.jpeg, id=20, 496.85625pt x 226.8475pt>
+<./figures/strategy.jpeg, id=16, 496.85625pt x 226.8475pt>
 File: ./figures/strategy.jpeg Graphic file (type jpg)
 <use ./figures/strategy.jpeg>
-Package pdftex.def Info: ./figures/strategy.jpeg  used on input line 192.
+Package pdftex.def Info: ./figures/strategy.jpeg  used on input line 193.
 (pdftex.def)             Requested size: 455.24411pt x 207.85071pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./figures/bandit.jpeg> <./figures/estimator.jpeg>]
 <./figures/static_cumulative_reward.jpeg, id=21, 1003.75pt x 602.25pt>
 File: ./figures/static_cumulative_reward.jpeg Graphic file (type jpg)
 <use ./figures/static_cumulative_reward.jpeg>
-Package pdftex.def Info: ./figures/static_cumulative_reward.jpeg  used on input line 205.
+Package pdftex.def Info: ./figures/static_cumulative_reward.jpeg  used on input line 208.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
 <./figures/static_average.jpeg, id=22, 1003.75pt x 602.25pt>
 File: ./figures/static_average.jpeg Graphic file (type jpg)
 <use ./figures/static_average.jpeg>
-Package pdftex.def Info: ./figures/static_average.jpeg  used on input line 213.
+Package pdftex.def Info: ./figures/static_average.jpeg  used on input line 216.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
 <./figures/static_percentage.jpeg, id=23, 1003.75pt x 602.25pt>
 File: ./figures/static_percentage.jpeg Graphic file (type jpg)
 <use ./figures/static_percentage.jpeg>
-Package pdftex.def Info: ./figures/static_percentage.jpeg  used on input line 222.
+Package pdftex.def Info: ./figures/static_percentage.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
-<./figures/dynamic_cumulative.jpeg, id=24, 1003.75pt x 602.25pt>
+ [4 <./figures/strategy.jpeg>] [5 <./figures/static_cumulative_reward.jpeg> <./figures/static_average.jpeg>]
+<./figures/dynamic_cumulative.jpeg, id=32, 1003.75pt x 602.25pt>
 File: ./figures/dynamic_cumulative.jpeg Graphic file (type jpg)
 <use ./figures/dynamic_cumulative.jpeg>
-Package pdftex.def Info: ./figures/dynamic_cumulative.jpeg  used on input line 232.
+Package pdftex.def Info: ./figures/dynamic_cumulative.jpeg  used on input line 240.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
- [4 <./figures/strategy.jpeg>] [5 <./figures/static_cumulative_reward.jpeg> <./figures/static_average.jpeg>] [6 <./figures/static_percentage.jpeg> <./figures/dynamic_cumulative.jpeg>]
-<./figures/dynamic_noisy_cumulative.jpeg, id=36, 1003.75pt x 602.25pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/dynamic_noisy_cumulative.jpeg, id=33, 1003.75pt x 602.25pt>
 File: ./figures/dynamic_noisy_cumulative.jpeg Graphic file (type jpg)
 <use ./figures/dynamic_noisy_cumulative.jpeg>
-Package pdftex.def Info: ./figures/dynamic_noisy_cumulative.jpeg  used on input line 240.
+Package pdftex.def Info: ./figures/dynamic_noisy_cumulative.jpeg  used on input line 246.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
-<./figures/dynamic_percentage.jpeg, id=37, 1003.75pt x 602.25pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/dynamic_percentage.jpeg, id=34, 1003.75pt x 602.25pt>
 File: ./figures/dynamic_percentage.jpeg Graphic file (type jpg)
 <use ./figures/dynamic_percentage.jpeg>
-Package pdftex.def Info: ./figures/dynamic_percentage.jpeg  used on input line 248.
+Package pdftex.def Info: ./figures/dynamic_percentage.jpeg  used on input line 252.
 (pdftex.def)             Requested size: 455.24411pt x 273.15117pt.
- [7 <./figures/dynamic_noisy_cumulative.jpeg>] [8 <./figures/dynamic_percentage.jpeg>] [9] [10] (./report.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./figures/static_percentage.jpeg>] [7 <./figures/dynamic_cumulative.jpeg>] [8 <./figures/dynamic_noisy_cumulative.jpeg>] [9 <./figures/dynamic_percentage.jpeg>] [10] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -713,17 +727,17 @@ Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  16271 strings out of 474222
- 296873 string characters out of 5748733
+ 296879 string characters out of 5748733
  1935975 words of memory out of 5000000
  38227 multiletter control sequences out of 15000+600000
- 573395 words of font info for 129 fonts, out of 8000000 for 9000
+ 573407 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,81p,1685b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on report.pdf (10 pages, 1136952 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on report.pdf (10 pages, 1160335 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26670 words of extra memory for PDF output out of 29859 (max. 10000000)
 
