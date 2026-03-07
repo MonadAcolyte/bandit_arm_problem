@@ -15,7 +15,14 @@
  top=15mm,
  } % Page Layout
 \usepackage[dvipsnames]{xcolor} % Colour
-\usepackage{amsmath} % Maths
+
+%%%%%%%%%
+% Maths %
+%%%%%%%%%
+
+\usepackage{amsmath} % For mathematical symbols and equations
+\usepackage{amsfonts} % For \mathbb
+\usepackage{amssymb} % Additional symbols, if needed
 
 %%%%%%%%%%%%%%%%%%%
 % Tables, figures %
@@ -232,7 +239,7 @@ The Softmax policy rapidly concentrates the highest probability on the best arm,
 
 All methods increase cumulative reward but the slopes separate as the environment changes. The average estimator (green) initially performs well but its curve flattens compared to the others, reflecting slower adaptation and more pulls of suboptimal arms. Moving average (yellow) does better, and the incremental update (orange) achieves the steepest curve, the highest long-term cumulative reward, which means lower loss of potential in a non-stationary bandit.
 
-Figure \ref{cumulative_noisy_dynamic} adds more estimators (different windows, step sizes, $\varepsilon $-greedy) and shows them under higher noise. Despite the noise, methods with larger constant steps and exploration ($\varepsilon $-greedy) tend to track changes better and obtain higher cumulative reward, while methods that average over too much history lag behind because old data dominates their estimates.
+% Figure \ref{cumulative_noisy_dynamic} adds more estimators (different windows, step sizes, $\varepsilon $-greedy) and shows them under higher noise. Despite the noise, methods with larger constant steps and exploration ($\varepsilon $-greedy) tend to track changes better and obtain higher cumulative reward, while methods that average over too much history lag behind because old data dominates their estimates.
 
 \pagebreak
 
@@ -242,11 +249,11 @@ Figure \ref{cumulative_noisy_dynamic} adds more estimators (different windows, s
   \label{cumulative_dynamic}
 \end{figure}
 
-\begin{figure}[h]
-  \includegraphics[width=\linewidth]{dynamic_noisy_cumulative.jpeg}
-  \caption{\small Cumulative reward over time with standard deviation bounds for dynamic environment}
-  \label{cumulative_noisy_dynamic}
-\end{figure}
+%\begin{figure}[h]
+%  \includegraphics[width=\linewidth]{dynamic_noisy_cumulative.jpeg}
+%  \caption{\small Cumulative reward over time with standard deviation bounds for dynamic environment}
+%  \label{cumulative_noisy_dynamic}
+%\end{figure}
 
 \begin{figure}[h]
   \includegraphics[width=\linewidth]{dynamic_percentage.jpeg}
@@ -302,22 +309,44 @@ In a more strict mathematical sense:
 
 \end{center}
 
-In this experiment the estimated value for each action was tracked with different methods, but Incremental Update rule is the closest to the aforementioned definition.
+This principle may be adapted based on the kind of estimator and policy of an agent.
 
 \subsubsection*{Incremental Update Rule}
 
-It uses the formula $Q_{n+1} = Q_n + \alpha [R_n - Q_n]$ with a fixed step size $\alpha $, which makes recent rewards more important than old ones.
-This was the best estimator for the tested dynamic environment. It adapted the fastest to reward distribution changes and kept the highest percentage of optimal arm selections over time. It also started well from the beginning, not only at the end. The team notes that moving average could eventually overcome it given more time, but this was not confirmed by the data.
+It uses a fixed step size $\alpha $, which makes recent rewards more important than old ones. This was the best estimator for the tested dynamic environment. It adapted the fastest to reward distribution changes and kept the highest percentage of optimal arm selections over time. It also started well from the beginning, not only at the end. The team notes that moving average could eventually overcome it given more time, but this was not confirmed by the data. Mathematicaly described with the expression:
 
+\bigskip
+
+\begin{center}
+  $Q_{n+1} = Q_n + \alpha [R_n - Q_n]$
+\end{center}
 \subsubsection*{Sample-Average Estimator}
 
 This method estimates each arm's value by calculating the mean of all rewards received from that arm.
-In static environments it works well, especially when consistent with small epsilon values. The agent does not need much exploration once it learns a good approximation of the bandits' expected reward. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quickly with the environment changes.
+In static environments it works well, especially when consistent with small epsilon values. The agent does not need much exploration once it learns a good approximation of the bandits' expected reward. However, in dynamic environments this estimator becomes a problem because it gives equal weight to old and new rewards, so it cannot adapt quickly with the environment changes. Formally defined as:
+
+\bigskip
+
+\begin{center}
+
+  $Q_n(a) = \frac{1}{n} \sum_{i=1}^{n} R_i$
+  
+\end{center}
 
 \subsubsection*{Moving Average Estimator}
 
 Instead of using all past single rewards, this method only considers the last N rewards (windows of 100 and 20 were used).
-At the beginning, it performs worse than the total average estimator because it has less data. But in dynamic environments, it improves over time, since it forgets old rewards and reacts better to changes. A window of 20 showed slightly better results than a window of 100 in most cases.
+At the beginning, it performs worse than the total average estimator because it has less data. But in dynamic environments, it improves over time, since it forgets old rewards and reacts better to changes. A window of 20 showed slightly better results than a window of 100 in most cases. Formally defined as:
+
+\bigskip
+
+\begin{center}
+$  Q_n(a) = \frac{\sum_{i=\max(1, n-W+1)}^{n} R_i}{\min(n, W)}$ 
+
+\bigskip
+
+$\text{Where} Q_n(a) =_{\text{def}} \text{the sum of the rewards from pull max } (1, n-W+1) \text{to } \frac{n}{/min(n, W)}$
+\end{center}
 
 \subsubsection*{$\varepsilon $-Greedy Strategy}
 
@@ -327,7 +356,17 @@ In static environments, low epsilon (0.1, -0.3) was clearly better because exces
 
 \subsubsection*{Softmax Strategy}
 
-Instead of a binary explore/exploit decision, Softmax assigns probabilities to each arm based on learned preferences, updated by gradient ascent.
+Instead of a binary explore/exploit decision, Softmax assigns probabilities to each arm based on learned preferences, updated by gradient ascent. Thus, its function $\sigma(z)$ takes in a mathematical tuple made out of a k amount of estimations ($z_{1} \ldots z_{k}$), and assigns them a value $\in (0, 1)$. I.E. $\mathbb{R}^{K} \rightarrow (0\text{,}1)^{k}$; where $\sigma(z)$ is defined as:
+
+\bigskip
+
+\begin{center}
+  $\sigma(z)_{i} = \frac{e^{z_{i}}}{\sum_{j = 1}^{K} e^{z_{j}} }$
+\end{center}
+
+\bigskip
+
+This implies that every input will be applied to the standard exponential function, and then normalised by the sum of every of such exponents.
 
 \subsubsection*{Considerations on Action Value Methods}
 
