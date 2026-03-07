@@ -368,6 +368,18 @@ Instead of a binary explore/exploit decision, Softmax assigns probabilities to e
 
 This implies that every input will be applied to the standard exponential function, and then normalised by the sum of every of such exponents.
 
+The preference $ - \beta \text{ for } \beta \in \mathbb{R}$ may be treated as a parameter that can be adjusted to either concentrate the parameters on the best estimations ($\beta$ > 1), or spread them around lesser estimtions (0 < $\beta$ < 1). This results in the equation:
+
+\bigskip
+
+\begin{center}
+  $\sigma(z)_{i} = \frac{e^{- \beta z_{i}}}{\sum_{j = 1}^{K} e^{- \beta z_{j}} }$
+\end{center}
+
+\bigskip
+
+The code used for this study manages this parameter conceptually as a temperature, which but the reciprocal: $\beta$ = 1/$T$. 
+
 \subsubsection*{Considerations on Action Value Methods}
 
 Softmax was the best strategy overall for static environments. It concentrated the probability on the best arm more raidly than epsilon-greedy, while still doing some exploration. And so, achieved the highest optimal-arm selection rate among all strategies tested.
