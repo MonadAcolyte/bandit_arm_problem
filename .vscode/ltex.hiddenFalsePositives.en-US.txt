@@ -13,3 +13,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q(Bubeck & Cesa-Bianchi, 2012)\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QAll methods increase cumulative reward but the slopes separate as the environment changes.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QThe average estimator (green) initially performs well but its curve flattens compared to the others, reflecting slower adaptation and more pulls of suboptimal arms.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QDesign of the Strategy class.\\E$"}

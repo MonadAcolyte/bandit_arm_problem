@@ -345,7 +345,7 @@ $  Q_n(a) = \frac{\sum_{i=\max(1, n-W+1)}^{n} R_i}{\min(n, W)}$
 
 \bigskip
 
-$\text{Where} Q_n(a) =_{\text{def}} \text{the sum of the rewards from pull max } (1, n-W+1) \text{to } \frac{n}{/min(n, W)}$
+$\text{Where } Q_n(a) =_{\text{def}} \text{the sum of the rewards from pull max } (1, n-W+1) \text{to } \frac{n}{/min(n, W)}$
 \end{center}
 
 \subsubsection*{$\varepsilon $-Greedy Strategy}
@@ -368,7 +368,7 @@ Instead of a binary explore/exploit decision, Softmax assigns probabilities to e
 
 This implies that every input will be applied to the standard exponential function, and then normalised by the sum of every of such exponents.
 
-The preference $ - \beta \text{ for } \beta \in \mathbb{R}$ may be treated as a parameter that can be adjusted to either concentrate the parameters on the best estimations ($\beta$ > 1), or spread them around lesser estimtions (0 < $\beta$ < 1). This results in the equation:
+The preference $ - \beta \text{ for } \beta \in \mathbb{R}$ may be treated as a parameter that can be adjusted to either concentrate the parameters on the best estimations ($\beta$ > 1), or spread them around lesser estimations (0 < $\beta$ < 1). This results in the equation:
 
 \bigskip
 
@@ -378,7 +378,7 @@ The preference $ - \beta \text{ for } \beta \in \mathbb{R}$ may be treated as a 
 
 \bigskip
 
-The code used for this study manages this parameter conceptually as a temperature, which but the reciprocal: $\beta$ = 1/$T$. 
+The code used for this study manages this parameter conceptually as a temperature, which is but the reciprocal: $\beta$ = 1/$T$. 
 
 \subsubsection*{Considerations on Action Value Methods}
 
